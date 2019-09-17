@@ -17,13 +17,13 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  var numInc = n++;
-  return (numInc);
+  n++;
+  return (n);
 }
 
 function dec(n) {
-  var numDec = n--;
-  return (numDec);
+  n-- \;
+  return (n);
 }
 
 function makeInt(n) {
